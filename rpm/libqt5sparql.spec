@@ -6,9 +6,6 @@ Group:   System/Libraries
 License: LGPLv2
 URL:     https://github.com/nemomobile/libqtsparql
 Source0: %{name}-%{version}.tar.gz
-Requires: pkgconfig(Qt5Core)
-Requires: pkgconfig(Qt5Network)
-Requires: pkgconfig(Qt5Qml)
 BuildRequires: doxygen
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Network)
